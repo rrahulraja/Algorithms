@@ -3,7 +3,6 @@ package com.rrahulraja.datastructures.queue;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-@SuppressWarnings("unchecked")
 public class LinkedQueue<T> implements Queue<T>, Iterable<T> {
 	
 	private LinkedList<T> list = new LinkedList<>();

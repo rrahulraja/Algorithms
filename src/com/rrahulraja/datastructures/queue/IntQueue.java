@@ -14,7 +14,6 @@ package com.rrahulraja.datastructures.queue;
  * @param <Integer>
  */
 
-@SuppressWarnings("unchecked")
 public class IntQueue implements Queue<Integer> {
 
 	private int[] data;
@@ -105,7 +104,7 @@ public class IntQueue implements Queue<Integer> {
 
 		System.out.println(q.isEmpty()); // true
 
-		// benchMarkTest();
+		 benchMarkTest();
 	}
 
 	// BenchMark IntQueue vs ArrayDeque.
