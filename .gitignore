@@ -1,7 +1,6 @@
-bin/
-
 # Eclipse IDE metadata
 *.class
 .project
 .classpath
 .settings/
+bin/
